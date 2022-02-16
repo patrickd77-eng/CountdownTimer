@@ -20,7 +20,29 @@
   </head>
 
   <body>
-    <h1>Countdown Timer</h1>
+      <div class="d-flex align-items-center justify-content-center mt-5">
+
+          <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Countdown</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Please enter a time below and press the desired button...</h6>
+                <div class="card-text">
+                    
+                   <input type="time" id="timer" value="05:00"/>
+                   <button onclick="startTimer()">Start</button>
+                   <button onclick="clearTimer()" class="mt-1">Clear</button>
+                   <button onclick="addToTimer()" class="mt-1">Add 1 min</button>
+                   <button onclick="subtractFromTimer()" class="mt-1">Subtract 1 min</button>
+
+
+                
+                </div>
+                
+              </div>
+            </div>
+
+      </div>
+     
     <script src="js/script.js"></script>
   </body>
 </html>
